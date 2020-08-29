@@ -1,8 +1,0 @@
-dec
-i1,i2:int;
-x,y:real
-begin
-	Read(i2,x);
-	y=i2*x+233;
-	Write(y)
-end.
