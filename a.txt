@@ -1,0 +1,6 @@
+program abc
+dec
+i@1,i@@2:int;
+x@s,y:real
+begin
+end.

@@ -1,0 +1,7 @@
+program abc
+
+ i2,i2: abcd
+x,y:real
+begin
+ y=i2*x+22;
+end.

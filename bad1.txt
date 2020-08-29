@@ -1,0 +1,10 @@
+program abc
+dec
+i1 i2:int;
+x,y:real;
+begin
+	Read(y);
+	Read(x);
+	y +2;
+	Write()
+end.

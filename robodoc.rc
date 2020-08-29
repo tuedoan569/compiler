@@ -1,0 +1,35 @@
+# robodoc.rc
+# Custom RoboDoc specs
+header markers:
+  --<****
+remark markers:
+  --
+end markers:
+  -->****
+remark begin markers:
+  --<
+remark end markers:
+  -->
+items:
+#source items:
+    DESCRIPTION
+    SYNOPSIS
+    MEMBER FUNCTION TYPE
+    PARAMETERS
+    RETURNS
+accept files:
+    *.adb
+    *.ads
+options:
+    --tell
+	--src /
+    --doc /www/student/tdoan569/CIS310
+    --html
+    --singledoc
+    --index
+    --tabsize 8
+	--one_file_per_header
+	--documenttitle "CSC310 - Project 3 - Scan & Parse"
+headertypes:
+    D  "Project Description"    robo_projectDescription    99
+    g  "Subprogram Group"       robo_projectDescription    89

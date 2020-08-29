@@ -1,0 +1,11 @@
+program abc
+dec
+i1,i2:int;
+x,y:real;
+t,a:int
+begin
+	Read(i2);
+	y=i2*x+233;
+	Write(y);
+	Read(t)
+end.
